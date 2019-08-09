@@ -8,14 +8,17 @@ import './registerServiceWorker';
 
 import axios from 'axios';
 // Vue继承axios
-Vue.prototype.$axios = axios
-Vue.prototype.$author = () => {
-  return 'jian'
-}
+Vue.prototype.$axios = axios;
+
+axios.defaults.baseURL = 'http://localhost:1024';
+
+// 引入 VueX
+// import 
+
 
 // 引入rem px 移动端适配
 // import 'lib-flexible';
-// import './routers/rem';
+import './routers/rem';
 
 Vue.config.productionTip = false
 

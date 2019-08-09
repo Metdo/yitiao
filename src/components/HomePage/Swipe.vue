@@ -53,7 +53,7 @@ export default {
 <style lang="scss" scoped>
 .swipe {
     width: 100%;
-    height: 2.386667rem;
+    // height: 2.386667rem;
     // background: pink; 
         img {
             width: 100%;

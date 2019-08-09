@@ -21,6 +21,17 @@ import {
 // 生活贴 
     // 宫格
     Grid, GridItem,
+// 详情页
+    // 加入购买
+    GoodsAction,
+    GoodsActionIcon,
+    GoodsActionButton,
+
+    // 遮罩弹窗
+    Popup,
+    // Sku 商品规格
+    Sku,
+
 
 
 
@@ -39,4 +50,7 @@ export default () => {
     Vue.use(Sidebar);
     Vue.use(SidebarItem);
     Vue.use(Grid).use(GridItem);
+    Vue.use(GoodsAction).use(GoodsActionIcon).use(GoodsActionButton);
+    Vue.use(Popup);
+    Vue.use(Sku);
 }

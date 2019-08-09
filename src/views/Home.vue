@@ -28,6 +28,30 @@ export default {
     HomeSearch,
     HomeNav,
     // Swipe
-  }
+  },
+
+  // computed: {
+  //   activated() {
+  //     window.onscroll = () => {
+  //       // 吸顶菜单
+  //       console.log(window.scrollY);
+  //       // if (window.scrollY >= 270) {
+  //       //   this.menuFixed = true;
+  //       // } else {
+  //       //   this.menuFixed = false;
+  //       // }
+  //     };
+  //   },
+  // }
+
+
 }
 </script>
+
+<style scoped>
+.home {
+  margin-bottom: 1.5625rem; 
+}
+
+
+</style>

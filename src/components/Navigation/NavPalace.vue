@@ -1,27 +1,23 @@
 <template>
-    <div>
-    <!-- <HomeSearch/>
-    <HomeNav/> -->
-                <h3>故宫专区</h3>
-                <h1>今朝有酒今朝醉</h1>
-
-    </div>
+  <div>
+    <PalacePicture />
+    <PalaceList />
+  </div>
 </template>
 
 <script>
-
-// import HomeSearch from '../HomeSearch.vue'
-// import HomeNav from '../Home/HomeNav.vue'
+import PalacePicture from '../Palace/PalacePicture';
+import PalaceList from '../Palace/PalaceList';
 
 
 export default {
     components: {
-        // HomeSearch,
-        // HomeNav
+        PalacePicture,
+        PalaceList,
     }
-}
+};
 </script>
 
-<style>
+<style scoped>
 
 </style>

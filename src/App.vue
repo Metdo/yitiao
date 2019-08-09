@@ -2,6 +2,7 @@
   <div id="app">
     
     <router-view/>
+    <!-- <Details /> -->
     <FootBabbar />
   </div>
 </template>
@@ -9,12 +10,17 @@
 
 import FootBabbar from './components/FootBabbar';
 
+// import DetailsSwipe from './components/Details/DetailsSwipe';
+// import Details from './views/Details';
+
 import './assets/yitiao.css'
 
 export default {
   name: 'app',
   components: {
-    FootBabbar
+    // Details,
+    FootBabbar,
+    // DetailsSwipe
   }
 }
 </script>
@@ -56,6 +62,10 @@ div,html {
 }
 a:hover {
     text-decoration: none;
+}
+
+baby {
+  font-size: 16px;
 }
 
 

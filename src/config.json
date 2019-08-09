@@ -1,0 +1,6 @@
+{
+    "PORT":1024,
+    "mongourl":"mongodb://localhost:27017",
+    "dbname":"yitiao",
+    "pKey":"dingding"
+}

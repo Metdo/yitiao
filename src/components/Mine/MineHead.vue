@@ -9,7 +9,11 @@
           <div class="login">
             <p data-spm="1.s6.s451.s964" data-log="true" data-randomspm="1565008945731813">
               <i></i>
-              <span>注册/登录</span>
+              <span>
+                  <router-link to="/reg">注册</router-link>
+                  /
+                  <router-link to="/login">登录</router-link>
+                </span>
             </p>
           </div>
           <div class="myCode">
@@ -109,6 +113,7 @@ i {
   box-sizing: border-box;
   -webkit-box-align: center;
   align-items: center;
+  justify-content: space-between;
 }
 
 .register .login {
@@ -133,12 +138,12 @@ i {
   margin: 0 0.45rem 0 0;
 }
 
-.register .myCode {
+/* .register .myCode { */
   /* position: relative; */
   /* float: right; */
-  position: fixed;
-  right: 0.9375rem;
-}
+  /* position: fixed;
+  right: 0.9375rem; */
+/* } */
 
 .unLogin .unlogin-wrapper .register .myCode i {
   width: 0.8rem;
@@ -205,6 +210,7 @@ i {
   align-items: center;
   font-size: 0.35rem;
   color: #333;
+  justify-content: space-between;
 }
 .memberClub i {
   display: block;
@@ -212,8 +218,8 @@ i {
   font-size: 0.35rem;
   position: relative;
   padding: 0 0.43rem 0 0;
-  position: fixed;
-  right: 0.625rem;
+  /* position: fixed;
+  right: 0.625rem; */
 }
 .memberClub i:after {
   content: "";

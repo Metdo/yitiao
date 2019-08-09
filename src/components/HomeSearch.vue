@@ -22,4 +22,14 @@ export default {
     position: fixed;
     top: 0;
 }
+
+.van-search {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: .15rem .4rem ;
+}
+
+
 </style>

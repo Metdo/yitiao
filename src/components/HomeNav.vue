@@ -8,9 +8,9 @@
             </van-tab>
     </van-tabs> -->
 
-    
+  
 
-    <ul>
+    <ul :class="{position:iscolor}">
       <li>
         <router-link to="/" active-class="active" exact>精选</router-link>
       </li>
@@ -40,12 +40,19 @@
       </li>
       
     </ul>
-    
-  </div>
+    </div>
+ 
 </template>
 
 <script>
+
 export default {
+  data(){
+    return{
+iscolor:false,
+    }
+  },
+
   // data() {
   //   return {
   //     active: 1,
@@ -76,6 +83,38 @@ export default {
   //     console.log(98);
   //   }
   // }
+
+  // computed: {
+  //   activated() {
+  //     window.onscroll = () => {
+  //       // 吸顶菜单
+  //       console.log(window.scrollY);
+  //       // if (window.scrollY >= 270) {
+  //       //   this.menuFixed = true;
+  //       // } else {
+  //       //   this.menuFixed = false;
+  //       // }
+  //     };
+  //   },
+  // }
+
+
+mounted() {
+  window.onscroll = () => {
+  
+      if (window.scrollY > 50) {
+          this.iscolor = true;
+        
+      } else {
+          this.iscolor = false;
+      }
+    };
+  },
+
+
+
+
+
 };
 </script>
 
@@ -97,7 +136,8 @@ a {
   background: #fff;
   border-bottom: #ddd 1px solid;
   overflow: auto;
-  margin-top: 54px; 
+  margin-top: 50px; 
+  z-index: 999;
   ul {
     height: 44px;
     width: 728px;
@@ -122,6 +162,13 @@ a {
       }
     }
   }
+}
+.position{
+  position: fixed;
+  top: 0px;
+  background: #fff;
+  color: white;
+  z-index:9999;
 }
 </style>
 
