@@ -2,9 +2,11 @@ const express = require('express');
 
 const Router = express.Router();
 
-// const goodsRouter = require('./goods');
+const goodsRouter = require('./goods');
 const regRouter = require('./reg');
 const loginRouter = require('./login');
+const palaceListRouter = require('./palaceList');
+const detailRouter = require('./detail');
 // const uploadRouter = require('./upload');
 
 const {formatData,token:{verify}} = require('../utils');
@@ -46,9 +48,12 @@ Router.use((req,res,next)=>{
 })
 
 // 数据接口
-// Router.use('/goods',goodsRouter);
+Router.use('/goods',goodsRouter);
 Router.use('/reg',regRouter);
 Router.use('/login',loginRouter);
+Router.use('/palaceList',palaceListRouter);
+Router.use('/detail',detailRouter);
+
 // Router.use('/upload',uploadRouter);
 
 // 校验token

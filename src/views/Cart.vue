@@ -1,108 +1,15 @@
 <template>
   <div>
-    <div class="selectAddress">
+    <!-- <div class="selectAddress">
       <sapn class="no-address">购物车</sapn>
       <span class="manage-button">管理</span>
       <i></i>
-    </div>
+    </div> -->
+
+    <h1>购物车</h1>
 
     <!-- 购物车商品 -->
-    <div class="pro-list">
-        <div style="background-color: gray;">
-          <div class="am-swipe">
-            <div class="am-swipe-content" style="touch-action: pan-y;">
-              <div class="cart-product">
-                <div class="select-item">
-                  <span class="Icon icon-radious" style="color: rgb(255, 255, 255);"></span>
-                </div>
-                <!-- <div class="cart-pro">
-                  <a
-                    class="cart-pro-item"
-                    href="https://h5.yit.com/r/product?product_id=687032"
-                  >
-                    <div class="pro-img">
-                      <div>
-                        <div class="LazyLoad is-visible">
-                          <img
-                            alt="纯银手杯"
-                            src="https://img01.yit.com/media/73bf71dd-76a5-4078-a3e1-748cb36a3a57.jpeg?imageMogr2/thumbnail/!112x112r/gravity/Center/crop/112x112"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div class="pro-desc">
-                      <div class="pro-info">
-                        <div class="pro-price-coupon">
-                          <p class="pro-name line-clamp-2">
-                           
-                            纯银手杯
-                            
-                          </p>
-                        </div>
-                        <div
-                          class="property"
-                          data-spm="1.s13.s1230.0"
-                          data-log_actiontype="3"
-                          style="background-color: rgb(247, 247, 247); color: rgb(153, 153, 153);"
-                          data-randomspm="1565255037930846"
-                        >
-                          <span>和熙粉;现货/2个工作日发货</span>
-                          <i></i>
-                        </div>
-                      
-                        <div class="pro-price">
-                          <div class="price">
-                            <div class="original-price">
-                              <i>
-                               
-                                ¥
-                                
-                                328.00
-                               
-                              </i>
-                            </div>
-                          </div>
-                          <div class="cart-control">
-                            <div class="control">
-                              <span
-                                class="icon-control minus disabled"
-                                data-spm="1.s13.s1230.0"
-                                data-log_actiontype="4"
-                                data-randomspm="1565255037931630"
-                              >
-                                <i>-</i>
-                              </span>
-                              <input
-                                type="tel"
-                                value="1"
-                                class="item-num"
-                                data-spm="1.s13.s1230.0"
-                                data-log_actiontype="6"
-                                data-randomspm="1565255037931626"
-                              />
-                              <span
-                                class="icon-control plus"
-                                data-spm="1.s13.s1230.0"
-                                data-log_actiontype="5"
-                                data-randomspm="1565255037931330"
-                              >
-                                <i>+</i>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                  </a>
-                </div> -->
-              </div>
-            </div>
-          </div>
-        </div>
-
-      <!-- react-empty: 61 -->
-    </div>
+    
   </div>
 </template>
 

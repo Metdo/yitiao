@@ -15,6 +15,11 @@ axios.defaults.baseURL = 'http://localhost:1024';
 // 引入 VueX
 // import 
 
+// 引入 elementui 框架 
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
+
 
 // 引入rem px 移动端适配
 // import 'lib-flexible';

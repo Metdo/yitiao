@@ -6,13 +6,13 @@ const {mongo:{find}} = require('../mongodb');
 const {formatData,token} = require('../utils')
 
 Router.get('/',async (req,res)=>{
-    let {username,password} = req.query;console.log(username,password)
+    let {phonenum,password} = req.query;console.log(phonenum,password)
 
-    let result = await find('user',{username,password});console.log(result)
+    let result = await find('reg',{});console.log(result)
 
     if(result.length>0){
         // 生成token，并返回客户端
-        let Athorization = token.create(username);
+        let Athorization = token.create(phonenum);
         // res.set('Athorization', Athorization);
         res.send(formatData({data:Athorization}))
 

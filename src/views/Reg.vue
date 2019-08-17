@@ -85,17 +85,22 @@
 
 <script>
 import { createCipheriv } from "crypto";
-// import Vue from "vue";
-// import { scrypt } from 'crypto';
-// import { Script } from 'vm';
+import Vue from "vue";
+import { scrypt } from 'crypto';
+import { Script } from 'vm';
 // import rem from '../../public/rem'
+
+import { Message } from 'element-ui';
+
 export default {
   data() {
     return {
     
         phonenum: "",
         password: "",
-        send: false
+        send: false,
+
+        checkPass: ""
       
     };
   },
@@ -119,7 +124,7 @@ export default {
                 if(data.code == 1000){
                     //成功跳转登录页
                   
-                    this.$router.replace({name:'Login'});
+                    this.$router.replace({name:'/login'});
                
                 }
             })

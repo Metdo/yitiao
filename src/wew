@@ -1,0 +1,830 @@
+{
+  "entityList": [{
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.0.pr-683578",
+      "categoryLv1Id": 54,
+      "categoryLv2Id": 68,
+      "categoryLv3Id": 7322,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596204075780,
+      "extImgUrl": "https://img01.yit.com/media/75cf792d-c59f-4ba3-98c6-a1d99be9a029.jpg",
+      "h5link": "/r/product?product_id=683578&_spm=1.7461.38-45-1-107882.0.pr-683578",
+      "hideTag": false,
+      "id": 683578,
+      "imgUrl": "https://img01.yit.com/media/7d714794-ee50-48cf-9e6e-ad422e89d3fd.jpg",
+      "name": "故宫宫廷文化无火香氛",
+      "price": {
+        "briefName": "故宫宫廷文化无火香氛",
+        "id": 683578,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }, {
+          "endTime": null,
+          "label": "视频",
+          "startTime": null,
+          "type": "VIDEO"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=683578",
+        "mainImageUrl": "https://img01.yit.com/media/75cf792d-c59f-4ba3-98c6-a1d99be9a029.jpg",
+        "onSale": true,
+        "originalName": "“御”系列无火香氛",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 28800,
+            "directPrice": 28800,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 28800,
+            "tagPrice": 28800,
+            "vipPrice": 28800
+          },
+          "maxPriceSkuId": 683991,
+          "minPriceInfo": {
+            "dailyPrice": 28800,
+            "directPrice": 28800,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 28800,
+            "tagPrice": 28800,
+            "vipPrice": 28800
+          },
+          "minPriceSkuId": 683991,
+          "spuId": 683578
+        },
+        "productName": "故宫宫廷文化无火香氛",
+        "relativeLinkUrl": "/r/product?product_id=683578",
+        "secondTitle": "设计灵感源于“御花园”，有牡丹、玉兰、腊梅、香橼、松柏、翠竹等东方香调",
+        "stock": 81,
+        "tagList": ["第2件0元", "限时特惠"],
+        "tagList2": [{
+          "color": "#D87672",
+          "label": "第2件0元"
+        }, {
+          "color": "#D87672",
+          "label": "限时特惠"
+        }],
+        "thumbnailUrl": "https://img01.yit.com/media/7d714794-ee50-48cf-9e6e-ad422e89d3fd.jpg",
+        "videoUrl": "http://1255302378.vod2.myqcloud.com/7983cc0bvodtransgzp1255302378/4a456a2e5285890789051077233/v.f40.mp4",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564668075780,
+      "storeStock": 0,
+      "subName": "设计灵感源于“御花园”，有牡丹、玉兰、腊梅、香橼、松柏、翠竹等东方香调",
+      "tagList": ["第2件0元", "限时特惠"],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.0.pr-683578",
+      "videoUrl": "http://1255302378.vod2.myqcloud.com/7983cc0bvodtransgzp1255302378/4a456a2e5285890789051077233/v.f40.mp4"
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.1.pr-684132",
+      "categoryLv1Id": 54,
+      "categoryLv2Id": 68,
+      "categoryLv3Id": 7193,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596204075780,
+      "extImgUrl": "https://img01.yit.com/media/6e75e7a8-9d86-4669-90ad-273635ff0314.jpg",
+      "h5link": "/r/product?product_id=684132&_spm=1.7461.38-45-1-107882.1.pr-684132",
+      "hideTag": false,
+      "id": 684132,
+      "imgUrl": "https://img01.yit.com/media/c78d9f0e-b149-4e8d-8f21-cddb97b675d6.jpg",
+      "name": "故宫宫廷文化香氛蜡烛",
+      "price": {
+        "briefName": "故宫宫廷文化香氛蜡烛",
+        "id": 684132,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }, {
+          "endTime": null,
+          "label": "视频",
+          "startTime": null,
+          "type": "VIDEO"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=684132",
+        "mainImageUrl": "https://img01.yit.com/media/6e75e7a8-9d86-4669-90ad-273635ff0314.jpg",
+        "onSale": true,
+        "originalName": "“御”系列香氛蜡烛",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 23800,
+            "directPrice": 23800,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 23800,
+            "tagPrice": 23800,
+            "vipPrice": 23800
+          },
+          "maxPriceSkuId": 684557,
+          "minPriceInfo": {
+            "dailyPrice": 23800,
+            "directPrice": 23800,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 23800,
+            "tagPrice": 23800,
+            "vipPrice": 23800
+          },
+          "minPriceSkuId": 684557,
+          "spuId": 684132
+        },
+        "productName": "故宫宫廷文化香氛蜡烛",
+        "relativeLinkUrl": "/r/product?product_id=684132",
+        "secondTitle": "设计灵感源于“御花园”，独特双层套杯，有牡丹、玉兰、腊梅等东方香调",
+        "stock": 278,
+        "tagList": ["第2件0元", "限时特惠"],
+        "tagList2": [{
+          "color": "#D87672",
+          "label": "第2件0元"
+        }, {
+          "color": "#D87672",
+          "label": "限时特惠"
+        }],
+        "thumbnailUrl": "https://img01.yit.com/media/c78d9f0e-b149-4e8d-8f21-cddb97b675d6.jpg",
+        "videoUrl": "http://1255302378.vod2.myqcloud.com/7983cc0bvodtransgzp1255302378/4c99760c5285890789051175151/v.f40.mp4",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564668075780,
+      "storeStock": 0,
+      "subName": "设计灵感源于“御花园”，独特双层套杯，有牡丹、玉兰、腊梅等东方香调",
+      "tagList": ["第2件0元", "限时特惠"],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.1.pr-684132",
+      "videoUrl": "http://1255302378.vod2.myqcloud.com/7983cc0bvodtransgzp1255302378/4c99760c5285890789051175151/v.f40.mp4"
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.2.pr-678877",
+      "categoryLv1Id": 6,
+      "categoryLv2Id": 7000,
+      "categoryLv3Id": 7017,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596203526977,
+      "extImgUrl": "",
+      "h5link": "/r/product?product_id=678877&_spm=1.7461.38-45-1-107882.2.pr-678877",
+      "hideTag": false,
+      "id": 678877,
+      "imgUrl": "https://img01.yit.com/media/d2acecdc-41d2-4bf7-aa2a-7666a4ac3299.jpg",
+      "name": "故宫仿真丝男士睡衣套装",
+      "price": {
+        "briefName": "故宫仿真丝男士睡衣套装",
+        "id": 678877,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "分销",
+          "startTime": null,
+          "type": "DISTRIBUTABLE"
+        }, {
+          "endTime": null,
+          "label": "爆款商品",
+          "startTime": null,
+          "type": "HOT"
+        }, {
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=678877",
+        "mainImageUrl": "https://img01.yit.com/media/101dd4a9-d1b2-4c83-8bca-28fed9fb4a41.jpeg",
+        "onSale": true,
+        "originalName": "上新了·故宫仿真丝睡衣男款 上新了故宫",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 49900,
+            "directPrice": 49900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 49900,
+            "tagPrice": 49900,
+            "vipPrice": 49900
+          },
+          "maxPriceSkuId": 678928,
+          "minPriceInfo": {
+            "dailyPrice": 49900,
+            "directPrice": 49900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 49900,
+            "tagPrice": 49900,
+            "vipPrice": 49900
+          },
+          "minPriceSkuId": 678928,
+          "spuId": 678877
+        },
+        "productName": "故宫仿真丝男士睡衣套装",
+        "relativeLinkUrl": "/r/product?product_id=678877",
+        "secondTitle": "《上新了·故宫》节目出品，上衣+裤子+眼罩三件套，融入中国风设计元素",
+        "stock": 164,
+        "tagList": [],
+        "tagList2": [],
+        "thumbnailUrl": "https://img01.yit.com/media/d2acecdc-41d2-4bf7-aa2a-7666a4ac3299.jpg",
+        "videoUrl": "",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564667526977,
+      "storeStock": 0,
+      "subName": "《上新了·故宫》节目出品，上衣+裤子+眼罩三件套，融入中国风设计元素",
+      "tagList": [],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.2.pr-678877",
+      "videoUrl": ""
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.3.pr-678356",
+      "categoryLv1Id": 6,
+      "categoryLv2Id": 12,
+      "categoryLv3Id": 776,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596203526977,
+      "extImgUrl": "",
+      "h5link": "/r/product?product_id=678356&_spm=1.7461.38-45-1-107882.3.pr-678356",
+      "hideTag": false,
+      "id": 678356,
+      "imgUrl": "https://img01.yit.com/media/de82ff68-fd23-44f7-b6ff-9f811d1af0e3.jpg",
+      "name": "故宫仿真丝女士睡衣套装",
+      "price": {
+        "briefName": "故宫仿真丝女士睡衣套装",
+        "id": 678356,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "分销",
+          "startTime": null,
+          "type": "DISTRIBUTABLE"
+        }, {
+          "endTime": null,
+          "label": "爆款商品",
+          "startTime": null,
+          "type": "HOT"
+        }, {
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=678356",
+        "mainImageUrl": "https://img01.yit.com/media/22c6d2bc-cf84-4c22-8d7f-981a79bb2def.jpg",
+        "onSale": true,
+        "originalName": "上新了·故宫 仿真丝睡衣套装 女款",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 49900,
+            "directPrice": 49900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 49900,
+            "tagPrice": 49900,
+            "vipPrice": 49900
+          },
+          "maxPriceSkuId": 678866,
+          "minPriceInfo": {
+            "dailyPrice": 49900,
+            "directPrice": 49900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 49900,
+            "tagPrice": 49900,
+            "vipPrice": 49900
+          },
+          "minPriceSkuId": 678866,
+          "spuId": 678356
+        },
+        "productName": "故宫仿真丝女士睡衣套装",
+        "relativeLinkUrl": "/r/product?product_id=678356",
+        "secondTitle": "《上新了·故宫》节目出品，上衣+裤子+眼罩三件套，融入中国风设计元素",
+        "stock": 307,
+        "tagList": [],
+        "tagList2": [],
+        "thumbnailUrl": "https://img01.yit.com/media/de82ff68-fd23-44f7-b6ff-9f811d1af0e3.jpg",
+        "videoUrl": "",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564667526977,
+      "storeStock": 0,
+      "subName": "《上新了·故宫》节目出品，上衣+裤子+眼罩三件套，融入中国风设计元素",
+      "tagList": [],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.3.pr-678356",
+      "videoUrl": ""
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.4.pr-678876",
+      "categoryLv1Id": 6,
+      "categoryLv2Id": 12,
+      "categoryLv3Id": 776,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596203526977,
+      "extImgUrl": "",
+      "h5link": "/r/product?product_id=678876&_spm=1.7461.38-45-1-107882.4.pr-678876",
+      "hideTag": false,
+      "id": 678876,
+      "imgUrl": "https://img01.yit.com/media/7ed4fe1b-53bc-458c-a02f-4ae9a6d7dad0.jpg",
+      "name": "故宫真丝睡衣套装 女款",
+      "price": {
+        "briefName": "故宫真丝睡衣套装 女款",
+        "id": 678876,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "分销",
+          "startTime": null,
+          "type": "DISTRIBUTABLE"
+        }, {
+          "endTime": null,
+          "label": "爆款商品",
+          "startTime": null,
+          "type": "HOT"
+        }, {
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=678876",
+        "mainImageUrl": "https://img01.yit.com/media/6c441b90-4b0f-4267-be65-44cb79c9d592.jpeg",
+        "onSale": true,
+        "originalName": "上新了·故宫真丝睡衣 女款",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 199900,
+            "directPrice": 199900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 199900,
+            "tagPrice": 199900,
+            "vipPrice": 199900
+          },
+          "maxPriceSkuId": 678935,
+          "minPriceInfo": {
+            "dailyPrice": 199900,
+            "directPrice": 199900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 199900,
+            "tagPrice": 199900,
+            "vipPrice": 199900
+          },
+          "minPriceSkuId": 678935,
+          "spuId": 678876
+        },
+        "productName": "故宫真丝睡衣套装 女款",
+        "relativeLinkUrl": "/r/product?product_id=678876",
+        "secondTitle": "《上新了·故宫》节目出品，上衣+裤子+眼罩三件套，精选真丝，中国风设计",
+        "stock": 83,
+        "tagList": [],
+        "tagList2": [],
+        "thumbnailUrl": "https://img01.yit.com/media/7ed4fe1b-53bc-458c-a02f-4ae9a6d7dad0.jpg",
+        "videoUrl": "",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564667526977,
+      "storeStock": 0,
+      "subName": "《上新了·故宫》节目出品，上衣+裤子+眼罩三件套，精选真丝，中国风设计",
+      "tagList": [],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.4.pr-678876",
+      "videoUrl": ""
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.5.pr-689694",
+      "categoryLv1Id": 6,
+      "categoryLv2Id": 12,
+      "categoryLv3Id": 777,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596203526977,
+      "extImgUrl": "",
+      "h5link": "/r/product?product_id=689694&_spm=1.7461.38-45-1-107882.5.pr-689694",
+      "hideTag": false,
+      "id": 689694,
+      "imgUrl": "https://img01.yit.com/media/db7ca398-5149-4fba-9c75-c9af82132e62.jpeg",
+      "name": "故宫真丝睡袍套装 女款",
+      "price": {
+        "briefName": "故宫真丝睡袍套装 女款",
+        "id": 689694,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=689694",
+        "mainImageUrl": "https://img01.yit.com/media/44947ff8-b9d0-480f-aea1-c7f2950998c2.jpeg",
+        "onSale": true,
+        "originalName": "上新了·故宫 鹤蝠系列 女士真丝款睡裙套装 吊带裙+睡袍+眼罩",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 288900,
+            "directPrice": 288900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 288900,
+            "tagPrice": 288900,
+            "vipPrice": 288900
+          },
+          "maxPriceSkuId": 689756,
+          "minPriceInfo": {
+            "dailyPrice": 288900,
+            "directPrice": 288900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 288900,
+            "tagPrice": 288900,
+            "vipPrice": 288900
+          },
+          "minPriceSkuId": 689756,
+          "spuId": 689694
+        },
+        "productName": "故宫真丝睡袍套装 女款",
+        "relativeLinkUrl": "/r/product?product_id=689694",
+        "secondTitle": "吊带裙+睡袍+眼罩，《上新了·故宫》出品，柔滑真丝，国风设计，宫廷刺绣",
+        "stock": 51,
+        "tagList": [],
+        "tagList2": [],
+        "thumbnailUrl": "https://img01.yit.com/media/db7ca398-5149-4fba-9c75-c9af82132e62.jpeg",
+        "videoUrl": "",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564667526977,
+      "storeStock": 0,
+      "subName": "吊带裙+睡袍+眼罩，《上新了·故宫》出品，柔滑真丝，国风设计，宫廷刺绣",
+      "tagList": [],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.5.pr-689694",
+      "videoUrl": ""
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.6.pr-689695",
+      "categoryLv1Id": 6,
+      "categoryLv2Id": 7000,
+      "categoryLv3Id": 7017,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596203526977,
+      "extImgUrl": "",
+      "h5link": "/r/product?product_id=689695&_spm=1.7461.38-45-1-107882.6.pr-689695",
+      "hideTag": false,
+      "id": 689695,
+      "imgUrl": "https://img01.yit.com/media/9b588ebb-ae11-4e6c-bbd9-41c362e94693.jpeg",
+      "name": "故宫仿真丝睡袍套装男款",
+      "price": {
+        "briefName": "故宫仿真丝睡袍套装男款",
+        "id": 689695,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=689695",
+        "mainImageUrl": "https://img01.yit.com/media/20127008-1e84-4dd8-9993-422eafb1d726.jpeg",
+        "onSale": true,
+        "originalName": "上新了·故宫 鹤蝠系列 男士仿真丝睡袍套装 睡袍+眼罩",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 59900,
+            "directPrice": 59900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 59900,
+            "tagPrice": 59900,
+            "vipPrice": 59900
+          },
+          "maxPriceSkuId": 689750,
+          "minPriceInfo": {
+            "dailyPrice": 59900,
+            "directPrice": 59900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 59900,
+            "tagPrice": 59900,
+            "vipPrice": 59900
+          },
+          "minPriceSkuId": 689750,
+          "spuId": 689695
+        },
+        "productName": "故宫仿真丝睡袍套装男款",
+        "relativeLinkUrl": "/r/product?product_id=689695",
+        "secondTitle": "睡袍+眼罩两件套，《上新了·故宫》出品，亲肤舒适，大气中国风，2色可选",
+        "stock": 38,
+        "tagList": [],
+        "tagList2": [],
+        "thumbnailUrl": "https://img01.yit.com/media/9b588ebb-ae11-4e6c-bbd9-41c362e94693.jpeg",
+        "videoUrl": "",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564667526977,
+      "storeStock": 0,
+      "subName": "睡袍+眼罩两件套，《上新了·故宫》出品，亲肤舒适，大气中国风，2色可选",
+      "tagList": [],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.6.pr-689695",
+      "videoUrl": ""
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.7.pr-678878",
+      "categoryLv1Id": 6,
+      "categoryLv2Id": 7000,
+      "categoryLv3Id": 7017,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596203526977,
+      "extImgUrl": "",
+      "h5link": "/r/product?product_id=678878&_spm=1.7461.38-45-1-107882.7.pr-678878",
+      "hideTag": false,
+      "id": 678878,
+      "imgUrl": "https://img01.yit.com/media/df33d5c1-43d0-43b9-8f8a-0d46f6163a1b.jpeg",
+      "name": "故宫真丝睡衣套装 男款",
+      "price": {
+        "briefName": "故宫真丝睡衣套装 男款",
+        "id": 678878,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "分销",
+          "startTime": null,
+          "type": "DISTRIBUTABLE"
+        }, {
+          "endTime": null,
+          "label": "爆款商品",
+          "startTime": null,
+          "type": "HOT"
+        }, {
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=678878",
+        "mainImageUrl": "https://img01.yit.com/media/6932c5b8-f7cd-4bff-8f72-230416d2e14d.jpeg",
+        "onSale": true,
+        "originalName": "上新了·故宫真丝睡衣男款 上新了故宫",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 199900,
+            "directPrice": 199900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 199900,
+            "tagPrice": 199900,
+            "vipPrice": 199900
+          },
+          "maxPriceSkuId": 678919,
+          "minPriceInfo": {
+            "dailyPrice": 199900,
+            "directPrice": 199900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 199900,
+            "tagPrice": 199900,
+            "vipPrice": 199900
+          },
+          "minPriceSkuId": 678919,
+          "spuId": 678878
+        },
+        "productName": "故宫真丝睡衣套装 男款",
+        "relativeLinkUrl": "/r/product?product_id=678878",
+        "secondTitle": "《上新了·故宫》节目出品，上衣+裤子+眼罩三件套，精选真丝，中国风设计",
+        "stock": 50,
+        "tagList": [],
+        "tagList2": [],
+        "thumbnailUrl": "https://img01.yit.com/media/df33d5c1-43d0-43b9-8f8a-0d46f6163a1b.jpeg",
+        "videoUrl": "",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564667526977,
+      "storeStock": 0,
+      "subName": "《上新了·故宫》节目出品，上衣+裤子+眼罩三件套，精选真丝，中国风设计",
+      "tagList": [],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.7.pr-678878",
+      "videoUrl": ""
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.8.pr-689629",
+      "categoryLv1Id": 6,
+      "categoryLv2Id": 12,
+      "categoryLv3Id": 777,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596203526977,
+      "extImgUrl": "",
+      "h5link": "/r/product?product_id=689629&_spm=1.7461.38-45-1-107882.8.pr-689629",
+      "hideTag": false,
+      "id": 689629,
+      "imgUrl": "https://img01.yit.com/media/a1176a5c-3b22-4a57-a935-fc10cb94dca7.jpeg",
+      "name": "故宫仿真丝睡袍套装女款",
+      "price": {
+        "briefName": "故宫仿真丝睡袍套装女款",
+        "id": 689629,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }],
+        "linkUrl": "https://h5.yit.com/r/product?product_id=689629",
+        "mainImageUrl": "https://img01.yit.com/media/f297fb7f-fed6-46be-a02b-0bd3c39cbea8.jpeg",
+        "onSale": true,
+        "originalName": "上新了·故宫 鹤蝠系列 女士仿真丝睡裙套装 吊带裙+睡袍+眼罩",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 79900,
+            "directPrice": 79900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 79900,
+            "tagPrice": 79900,
+            "vipPrice": 79900
+          },
+          "maxPriceSkuId": 689685,
+          "minPriceInfo": {
+            "dailyPrice": 79900,
+            "directPrice": 79900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 79900,
+            "tagPrice": 79900,
+            "vipPrice": 79900
+          },
+          "minPriceSkuId": 689685,
+          "spuId": 689629
+        },
+        "productName": "故宫仿真丝睡袍套装女款",
+        "relativeLinkUrl": "/r/product?product_id=689629",
+        "secondTitle": "吊带裙+睡袍+眼罩三件套，《上新了·故宫》出品，优雅中国风，3色可选",
+        "stock": 533,
+        "tagList": [],
+        "tagList2": [],
+        "thumbnailUrl": "https://img01.yit.com/media/a1176a5c-3b22-4a57-a935-fc10cb94dca7.jpeg",
+        "videoUrl": "",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564667526977,
+      "storeStock": 0,
+      "subName": "吊带裙+睡袍+眼罩三件套，《上新了·故宫》出品，优雅中国风，3色可选",
+      "tagList": [],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.8.pr-689629",
+      "videoUrl": ""
+    },
+    "typeName": "Product"
+  }, {
+    "entity": {
+      "_vid": "1.7461.38-45-1-107882.9.r-+spuid=699908",
+      "categoryLv1Id": 6,
+      "categoryLv2Id": 12,
+      "categoryLv3Id": 776,
+      "cmsTagList": [],
+      "dailyPrice": 0,
+      "endTime": 1596203576987,
+      "extImgUrl": "https://img01.yit.com/media/9465f9f1-bd42-4f31-8bb4-1a1fa49ab82e.jpg",
+      "h5link": "/r/crowd?spuid=699908&_spm=1.7461.38-45-1-107882.9.r-%2Bspuid%3D699908",
+      "hideTag": false,
+      "id": 699908,
+      "imgUrl": "https://img01.yit.com/media/069ce9ae-987d-40dc-b2f0-78218fdfee85.jpg",
+      "name": "众筹：故宫出的国风睡衣",
+      "price": {
+        "briefName": "故宫“畅音鹤蝠”睡衣",
+        "id": 699908,
+        "indicatorList": [{
+          "endTime": null,
+          "label": "众筹",
+          "startTime": null,
+          "type": "CROWDFUNDING"
+        }, {
+          "endTime": null,
+          "label": "线上销售",
+          "startTime": null,
+          "type": "ON_LINE"
+        }, {
+          "endTime": null,
+          "label": "线下销售",
+          "startTime": null,
+          "type": "RETAIL_STORE"
+        }],
+        "linkUrl": "https://h5.yit.com/r/crowd?spuid=699908",
+        "mainImageUrl": "https://img01.yit.com/media/9465f9f1-bd42-4f31-8bb4-1a1fa49ab82e.jpg",
+        "onSale": true,
+        "originalName": "一条众筹 上新了故宫 畅音鹤蝠系列 夏季短款亲子家居服",
+        "priceInfo": {
+          "maxPriceInfo": {
+            "dailyPrice": 44900,
+            "directPrice": 44900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 44900,
+            "tagPrice": 49900,
+            "vipPrice": 44900
+          },
+          "maxPriceSkuId": 701315,
+          "minPriceInfo": {
+            "dailyPrice": 44900,
+            "directPrice": 44900,
+            "groupBuyPrice": -1,
+            "groupBuyVipPrice": -1,
+            "price": 44900,
+            "tagPrice": 49900,
+            "vipPrice": 44900
+          },
+          "minPriceSkuId": 701315,
+          "spuId": 699908
+        },
+        "productName": "众筹：故宫出的国风睡衣",
+        "relativeLinkUrl": "/r/crowd?spuid=699908",
+        "secondTitle": "《上新了·故宫》出品，夏季短款限量发售，畅音鹤蝠刺绣，成人、儿童款可选",
+        "stock": 1574,
+        "tagList": [],
+        "tagList2": [],
+        "thumbnailUrl": "https://img01.yit.com/media/069ce9ae-987d-40dc-b2f0-78218fdfee85.jpg",
+        "videoUrl": "",
+        "visibility": "SEARCH"
+      },
+      "secondTitle": "",
+      "startTime": 1564667576987,
+      "storeStock": 0,
+      "subName": "《上新了·故宫》出品，夏季短款限量发售，畅音鹤蝠刺绣，成人、儿童款可选",
+      "tagList": [],
+      "title": "",
+      "vid": "1.7461.38-45-1-107882.9.r-+spuid=699908",
+      "videoUrl": ""
+    },
+    "typeName": "Product"
+  }]
+}

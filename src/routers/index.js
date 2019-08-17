@@ -83,7 +83,7 @@ let router = new Router ({
       name: 'cart',
       component: Cart,
       // 本组件需要登录权限才可访问
-      // meta: { requiresAuth: true }
+      meta: { requiresAuth: true }
     },
     {
       path: '/mine',
@@ -92,18 +92,18 @@ let router = new Router ({
     },
     {
       path: '/reg',
-      naem: 'reg',
+      name: 'reg',
       component: () => import(/* webpackChunkName: "about" */ '../views/Reg.vue'),
     },
     {
       path: '/login',
-      naem: 'login',
+      name: 'login',
       component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue'),
     },
     // 详情页
     {
-      path: '/details/:ids',
-      naem: 'details',
+      path: '/details/:id',
+      name: 'details',
       component: () => import(/* webpackChunkName: "about" */ '../views/Details.vue'),
     },
 
@@ -113,8 +113,12 @@ let router = new Router ({
       redirect: '/home/navSift'
     },
     {
-      path: '/r/:ids',
-      redirect: 'details/:ids'
+      path: '/home',
+      redirect: '/home/navSift'
+    },
+    {
+      path: '/r/:id',
+      redirect: 'details/:id'
     },
     
   ]
@@ -124,7 +128,7 @@ let router = new Router ({
 // 全局路由守卫
 // 所有的路由切换都会执行，
 router.beforeEach((to,from,next)=>{
-  console.log('全局：beforeEach',to);
+  // console.log('全局：beforeEach',to);
   // 判断目标路由是否需要登录权限才可访问
   if(to.matched.some(item=>item.meta.requiresAuth)){
       let token = localStorage.getItem('Authorization');
@@ -148,8 +152,8 @@ router.beforeEach((to,from,next)=>{
   }
 })
 
-router.afterEach((to,from)=>{
-  console.log('全局：afterEach');
-})
+// router.afterEach((to,from)=>{
+//   // console.log('全局：afterEach');
+// })
 
 export default router;

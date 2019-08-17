@@ -32,6 +32,9 @@ import {
     // Sku 商品规格
     Sku,
 
+    Button, 
+    // 列表
+    List 
 
 
 
@@ -53,4 +56,6 @@ export default () => {
     Vue.use(GoodsAction).use(GoodsActionIcon).use(GoodsActionButton);
     Vue.use(Popup);
     Vue.use(Sku);
+    Vue.use(Button);
+    Vue.use(List);
 }

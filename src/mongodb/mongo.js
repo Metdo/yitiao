@@ -5,6 +5,8 @@ const {MongoClient,ObjectId} = mongodb;//{_id:ObjectId(id)}
 // 引入配置文件
 let {mongourl:url,dbname} = require('../config.json');
 // const url = 'mongodb://localhost:27017';
+// // Database Name
+// const dbname = 'h51904';
 
 const connect = ()=>{
     return new Promise((resolve,reject)=>{
@@ -114,4 +116,3 @@ exports.find = (colName,query,{limit,skip,sort}={})=>{
         client.close();
     })
 }
-

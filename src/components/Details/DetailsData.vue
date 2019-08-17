@@ -196,7 +196,7 @@ export default {
         showPopup() {
             this.show = true;
         }
-  }
+    }
 
 
 };

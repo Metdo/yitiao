@@ -1,55 +1,67 @@
 <template>
   <!--  src="https://img01.yit.com/media/65b75c16-9b1a-4925-ae07-3b7f781b69b1.jpeg?imageMogr2/thumbnail/!345x345r/gravity/Center/crop/345x345" -->
   <div>
-    <div class="products" >
-      <div class="product-wrap" v-for="(item,index) in palacelist" :key="index" @click="navTo(item.entity.id)" >
-        <a
-          href="/r/product?product_id=644798&amp;_spm=1.7461.38-45-0-107888.0.pr-644798"
-          data-randomspm="1565103632130808"
-        >
-          <div class="comp-cms-product">
-            <div class="image-wrap" style="padding-bottom: 100%;">
-              <div class="LazyLoad is-visible">
-                <img
-                 
-                  :src="item.entity.imgUrl"
+    <div class="products"  >
+
+      <!-- <van-list
+        v-model="loading"
+        :finished="finished"
+      
+        @load="getpalacelist"
+      > -->
+  
+
+        <div class="product-wrap" v-for="(item,index) in palacelist" :key="index" @click="navTo(item.id)"  >
+          <a>
+            <div class="comp-cms-product">
+              <div class="image-wrap" style="padding-bottom: 100%;">
+                <div class="LazyLoad is-visible">
+                  <img
                   
-                  alt
-                />
+                    :src="item.imgUrl"
+                    
+                    alt
+                  />
+                </div>
               </div>
-            </div>
-            <div class="detail">
-              <div class="title line-clamp-2" v-text="item.entity.name">
-                <!-- react-text: 81839 -->
-                <!-- {{item.name}} -->
-                <!-- /react-text -->
-              </div>
-              <div class="sub-name line-clamp-2">{{item.entity.subName}}</div>
-              <div class="price">
-                <div class="money">
-                  <span class="coin">￥</span>
-                  <!-- react-text: 81844 -->
-                  <!-- /react-text -->
-                  <!-- react-text: 81845 -->
-                  189
+              <div class="detail">
+                <div class="title line-clamp-2" v-text="item.title">
+                  <!-- react-text: 81839 -->
+                  <!-- {{item.name}} -->
                   <!-- /react-text -->
                 </div>
-                <del>
-                  <!-- react-text: 81847 -->
-                  ￥
-                  <!-- /react-text -->
-                  <!-- react-text: 81848 -->
-                  199
-                  <!-- /react-text -->
-                </del>
+                <div class="sub-name line-clamp-2">{{item.subName}}</div>
+                <div class="price">
+                  <div class="money">
+                    <span class="coin">￥</span>
+                    <!-- react-text: 81844 -->
+                    <!-- /react-text -->
+                    <!-- react-text: 81845 -->
+                    <!-- 189 -->
+                    {{item.vipPrice}}
+                    <!-- /react-text -->
+                  </div>
+                  <del>
+                    <!-- react-text: 81847 -->
+                    ￥
+                    <!-- /react-text -->
+                    <!-- react-text: 81848 -->
+                    <!-- 199 -->
+                    {{item.price}}
+                    <!-- /react-text -->
+                  </del>
+                </div>
+                <!-- <div class="tags">
+                  <div class="tag" style="background-color: rgb(216, 118, 114);">限时特惠</div>
+                </div> -->
               </div>
-              <!-- <div class="tags">
-                <div class="tag" style="background-color: rgb(216, 118, 114);">限时特惠</div>
-              </div> -->
             </div>
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
+
+      <!-- </van-list> -->
+
+
       <div class="product-wrap">
         <a
           href="/r/product?product_id=644502&amp;_spm=1.7461.38-45-0-107888.1.pr-644502"
@@ -91,6 +103,7 @@
           </div>
         </a>
       </div>
+
       <div class="product-wrap">
         <a
           href="/r/product?product_id=693650&amp;_spm=1.7461.38-45-0-107888.2.pr-693650"
@@ -132,6 +145,7 @@
           </div>
         </a>
       </div>
+
       <div class="product-wrap">
         <a
           href="/r/product?product_id=113673&amp;_spm=1.7461.38-45-0-107888.3.pr-113673"
@@ -228,7 +242,11 @@
 export default {
   data(){
     return{
-      palacelist:[]
+      palacelist:[],
+      // list: []
+
+      loading: false,
+      finished: false
       
     }
   },
@@ -240,23 +258,46 @@ export default {
     //   this.list=data;
     //   console.log(this.list);
     // }
-  },
-
-  //点击存储
+    
+  // 点击存储
   navTo(id){
-      this.$router.push({name:'details',params:{ids:id}})
+      this.$router.push({name:'details',params:{id}})
+  // console.log(id);
+      },
+
+
+
+    async getpalacelist(){
+      let data = await this.$axios(
+          // "https://www.easy-mock.com/mock/5d400b1f2c0fb9351245b95b/example/palacelist"
+          "http://localhost:1024/palaceList"
+        );
+        // console.log(data.data)
+        this.palacelist = data.data
+
+        // 构建新数据。旧数据 + 新数据
+        this.palacelist = [ ...this.palacelist , ...data.data ];
+        // 加载状态结束
+        this.loading = false;
+
+        // 数据全部加载完成
+        if(this.palacelist.length >= 28) {
+          this.finshed = true;
+        }
+
+        // this.list=data.data;
+        // this.palacelist = data.data[0].entityList;
+        // console.log( this.palacelist);
+
+        
+    // console.log(id);
+    },
+
   },
 
-  async created(){
-    let data = await this.$axios(
-        "https://www.easy-mock.com/mock/5d400b1f2c0fb9351245b95b/example/palacelist"
-      );
-      // this.list=data.data;
-      this.palacelist = data.data[0].entityList;
-     
-      console.log( this.palacelist)
-
-  },
+  async created() {
+    this.getpalacelist();
+  }
 
   
     

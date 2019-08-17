@@ -18,8 +18,8 @@ Router.post('/',async (req,res)=>{
 Router.get('/check',async (req,res)=>{
     // async & await 实现：用同步的代码实现异步操作
     // async * await 是ES7的知识
-    let {username} = req.query;
-    let data = await find('user',{username});
+    let {phonenum} = req.query;
+    let data = await find('user',{phonenum});
     console.log(data)
     if(data.length>0){
         return res.send(formatData({code:250}))

@@ -76,7 +76,8 @@ export default {
       login(){
           let phonenum = this.phonenum;
           let password = this.password;
-           let params = {phonenum,password};
+           let params = {"phonenum":phonenum
+                          ,"password":password};
        this.$axios
             .get("/login", {
               params
